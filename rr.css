@@ -1,0 +1,239 @@
+.slide{
+  margin-top: 100px;
+}
+.ts{
+  padding-top: 0px;
+  padding-bottom: 40px;
+}
+      .wrap{background-color: #bcbcbc ; height:700px;}
+      .paraconta{margin-bottom: 5px;
+                    font-size: 20px;}
+
+      .con{margin-top:200px;}
+
+      .style_1{text-align:left;}
+      .contactus{margin: 0px 150px;}
+
+
+
+.vector1{height: 150px;
+          width:200px;
+          padding-left: 20px;
+        }
+
+.image1{width: 300px;
+        height: 100px;}
+.style_1{
+  height:300px;
+}
+
+#footer{background-color:black;
+            color: white;
+            height:650px;
+            margin-top: 150px;
+            padding: 50px;
+            text-align:center;
+            }
+.card1{margin-top: 100px;
+        height:250px;}
+.copyrights{position: relative;
+            bottom: 0%;
+        	margin-top: 10px;
+        	padding: 20px;}
+
+
+
+ 
+.err{color:red;
+      margin-bottom: 0px;}
+
+.form1in{margin :0px 0px;}
+.form_1{width: 400px;
+          margin-top: 100px;}
+
+ 
+.li{margin:10px 0px; 
+      font-size: 20px; }
+.links{border-width: : 0.5x;
+
+        border-top: 0px;
+        border-left: 0px;
+        border-right:0px; 
+        border-color: white;
+        border-style: solid;
+        padding: 25px;
+        }
+
+.download{margin-top:10px;
+            font-size: 22px;
+        border-bottom: 0.5x;
+        padding: 25px;
+        border-top: 0px;
+        border-left: 0px;
+        border-right:0px; 
+        border-color: white;
+        border-style: solid;
+    	margin-bottom: 10px;}
+.button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 15px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.login{
+  font-size: 15px;
+  width: 80px;
+  padding: 7px;
+  margin: 0px;
+
+}
+
+
+
+/* our Team*/
+
+/* Three columns side by side */
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.containert {
+    padding: 0 16px;
+}
+
+/* Clear floats */
+.containert::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: grey;
+}
+
+.buttoncontact {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.buttoncontact:hover {
+    background-color: #555;
+}
+
+.rr{
+  height:400px;
+}
+
+.cardt{height:250px;
+      }
+
+
+      #regForm {
+  background-color: #ffffff;
+  margin: 100px auto;
+  padding: 40px;
+  width: 50%;
+  min-width: 300px;
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none; 
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+/* Mark the active step: */
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #4CAF50;
+}
+
+
+
+
+
+
+/**/
+
+
